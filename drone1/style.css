@@ -1,0 +1,541 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Vampiro One', cursive;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(images/background-image.jpg)
+}
+h1{
+    
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    border:3px solid red;
+}
+
+h2{
+    
+    background-color:black;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    border:3px solid red;
+}
+
+
+
+#grid-floats .grid-item{
+    
+    width:23%;
+    height: 40%;
+    /*border:3px solid black;*/
+    size: 50%;
+    margin-left: 20px;
+    margin-top: 5px;
+    list-style: none;
+    /*background-image: url(images/divbackground.jpg);*/
+    
+    
+}
+#grid-floats li:first-child{
+    float:left;
+    width:40%;
+    text-align:center;
+}
+
+#grid-floats li:nth-child(2){
+    float:left;
+    text-align:center;
+}
+
+#grid-floats li:nth-child(3){
+    float:right;
+    text-align:center;
+}
+#grid-floats li:nth-child(4){
+    clear:both;
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(5){
+    
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(6){
+    
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(7){
+    
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(8){
+    clear:both;
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(9){
+    
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(10){
+    
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(11){
+    
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(12){
+    clear:both;
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(13){
+    
+    float:left;
+    text-align:center;
+}
+#grid-floats li:nth-child(14){
+    
+    float:left;
+    text-align:center;
+}
+@media (max-width:600px){
+
+    
+
+    #grid-floats li:first-child{
+        
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(2){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(3){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(4){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(5){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(6){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(7){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(8){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(9){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(10){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(11){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(12){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(13){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+    #grid-floats li:nth-child(14){
+    
+        width:90%;
+        text-align:center;
+        overflow: hidden;
+    }
+}
+
+@media screen 
+    and (min-device-width: 600px) 
+    and (max-device-width: 1024px) 
+    {
+
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+    
+        #grid-floats li:first-child{
+        width:45%;
+        float:left;
+        text-align: center;
+       
+    }
+    
+    #grid-floats li:nth-child(2){
+        width:45%;
+        float:right;
+        
+    }
+
+    #grid-floats li:nth-child(3){
+        clear:both;
+        width:30%;
+        float:left;
+        background-color: turquoise;
+        margin-top: 15px;
+        display:inline;
+        
+        
+    }
+    #grid-floats li:nth-child(4){
+        float: left;
+        width:30%;
+        background-color: turquoise;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 15px;
+        display:inline;
+        
+        
+    }
+    #grid-floats li:nth-child(5){
+        clear:both;
+        width:30%;
+        float:left; 
+        clear:both; 
+        
+    }
+#grid-floats li:nth-child(6){
+    clear:both;
+    width:33%;
+    float:left;  
+   
+}
+#grid-floats li:nth-child(7){
+    clear:both;
+    width:33%;
+    float:left;  
+    
+}
+#grid-floats li:nth-child(8){
+    clear:both;
+    width:33%;
+    float:right;  
+    
+}
+#grid-floats li:nth-child(9){
+    clear:both;
+    width:33%;
+    float:left;  
+    
+}
+#grid-floats li:nth-child(10){
+    clear:both;
+    width:33%;
+    float:left;  
+    
+}
+#grid-floats li:nth-child(11){
+    clear:both;
+    width:33%;
+    float:right;  
+    
+}
+#grid-floats li:nth-child(12){
+    clear:both;
+    width:33%;
+    float:left;  
+    
+}
+#grid-floats li:nth-child(13){
+    clear:both;
+    width:33%;
+    float:left;  
+    
+}
+#grid-floats li:nth-child(14){
+    clear:both;
+    width:33%;
+    float:right;  
+    
+}
+}
+#grid-flex .grid-item{
+    clear:both;
+}
+h2{
+    clear:both;
+    
+}
+
+h3{
+    text-align:center;
+    color:red;
+    
+}
+#grid-floats img {  
+    max-width: 50%;  
+    height: auto; 
+    justify-content: left;
+    display:inline;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align:middle;
+    text-align:center;
+    margin-left: 0;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    background-image:url(images/sky.jpg)
+    
+}
+
+@keyframes example {
+    from {max-width: 50%;}
+    to {max-width: 75%;}
+  }
+#grid-floats img:hover{ 
+    transform: scale(1.5); /* (150% zoom) */
+    
+}
+
+#grid-floats p{
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+    color:red;
+}
+
+#grid-flex{
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:stretch;
+    height:250px; 
+       
+
+}
+
+#grid-flex .grid-item{
+    border-bottom: 1px solid red;
+    margin-top: 10px;
+    padding-bottom: 10px; 
+}   
+
+#grid-flex img { 
+    display: flex;
+    align-items: flex-start;
+    max-width: 40%;  
+    height: auto; 
+    justify-content: left;
+    display:inline;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align:middle;
+    text-align:center;
+    margin-left: 0;
+    justify-content: center;
+    
+}
+#grid-flex img:hover{ 
+    transform: scale(1.5); /* (150% zoom) */
+
+    
+}
+
+#grid-flex li:first-child{
+    width:45%;
+    text-align: center;
+   
+}
+
+#grid-flex li:nth-child(2){
+    width:25%;
+    text-align:center;
+}
+
+#grid-flex li:nth-child(3){
+    width:25%;
+    text-align:center;
+}
+   
+#grid-flex li:nth-child(4){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(5){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(6){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(7){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(8){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(9){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(10){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(11){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(12){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(13){
+    width:24%;
+    text-align:center;
+}
+#grid-flex li:nth-child(14){
+    width:24%;
+    text-align:center;
+}
+
+@media (max-width:600px){
+    
+    #grid-flex li:first-child{
+        
+        justify-content:center;
+        flex-grow:1;
+        
+    }
+    #grid-flex li:nth-child(2){
+        flex-direction: column;
+        width:90%;
+        text-align:center;
+        
+         
+     
+}
+#grid-flex li:nth-child(3){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+    #grid-flex li:nth-child(4){
+        flex-direction: column;
+        width:90%;
+        text-align:center;
+}        
+
+#grid-flex li:nth-child(5){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+     
+#grid-flex li:nth-child(6){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(7){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(8){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(9){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(10){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(11){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(12){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(13){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+#grid-flex li:nth-child(14){
+    flex-direction: column;
+    width:90%;
+    text-align:center;
+}    
+}  
+ 
