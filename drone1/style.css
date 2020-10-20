@@ -9,13 +9,14 @@ body{
     width:90%;
     margin-left: auto;
     margin-right: auto;
-    background-image:url(images/background-image.jpg)
+    background-image:url(background-image.jpg)
 }
 h1{
     
     background-color:black;
     color:white;
     text-align: center;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     border:3px solid red;
@@ -43,7 +44,7 @@ h2{
     margin-left: 20px;
     margin-top: 5px;
     list-style: none;
-    /*background-image: url(images/divbackground.jpg);*/
+    background-image: url(images/divbackground.jpg);
     
     
 }
